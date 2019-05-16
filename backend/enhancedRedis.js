@@ -7,6 +7,7 @@ class EnhancedRedis extends Redis {
 
     return super.set(key, value)
   }
+  
 }
 
 module.exports = EnhancedRedis
